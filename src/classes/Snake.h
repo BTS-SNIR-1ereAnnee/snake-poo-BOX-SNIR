@@ -5,21 +5,21 @@ class Snake
 {
 public:
     
-    Snake();
+    Snake(); //Constructeur par defaut
     
-    virtual ~Snake();
+    virtual ~Snake(); //destructeur par defaut          
     
-    void ajouterPoint(Point p);
+    void ajouterPoint(Point p); //declaration de la methode
     
-    void afficher();
+    void afficher();  //declaration de la methode
     
 protected:
 
 private:
 
-       Point m_serpent[4];
-       int m_indexSerpent;
+       Point m_serpent[4];  //declaration de l'attribut
+       int m_indexSerpent;  //declaration de l'attribut
      
 };
 
-#endif // POINT_H
+#endif // SNAKE_H

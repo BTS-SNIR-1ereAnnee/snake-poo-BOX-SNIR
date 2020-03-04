@@ -3,18 +3,18 @@
 
 using namespace std;
 
-Snake::Snake()
+Snake::Snake() //contructeur
 {
     
 }
 
-void Snake::ajouterPoint(Point p)
+void Snake::ajouterPoint(Point p) //implemantation de la methode
 {
     
 }
 
 
-void Snake::afficher()
+void Snake::afficher()  //implemantation de la methode
 {
 //        for()
 //        {
@@ -25,7 +25,7 @@ void Snake::afficher()
 
 
 
-Snake::~Snake()
+Snake::~Snake() //destructeur
 {
 
 }
