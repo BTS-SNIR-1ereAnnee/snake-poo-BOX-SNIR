@@ -25,8 +25,8 @@ int main()
     p.drawPoint();
     p.moveDown();
     p.drawPoint();
-    
-    
+    p.moveLeft();
+    p.drawPoint();
     
     //cout << "press any key to quit" << endl;
     getchar();
