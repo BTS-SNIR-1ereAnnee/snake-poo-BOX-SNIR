@@ -17,13 +17,14 @@ int main()
     // initialisation des pointeurs
     fenetre = Board::getInstance ();
 
-    Point p(10,4);
+    Point p(10,1);
     p.drawPoint();
-    Point p2(10,5);
+    Point p2(10,9);
     p2.drawPoint();
     p.moveUp();
     p.drawPoint();
-    
+    p.moveDown();
+    p.drawPoint();
     
     
     
