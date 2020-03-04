@@ -49,19 +49,25 @@ public:
      * \param val New value to set
      */
     void setY(int val);
+    /** Access m_y
+     * \return The current value of m_y
+     */
 
+    void drawPoint();
+    
     /**
     *   dessine le point
     */
-    void drawPoint();
+    
+    void erasePoint();
     /**
     *   efface le point
     */
-    void erasePoint();
+    
+    void debug();
     /**
     *   Affiche les coordonnées
     */
-    void debug();
 protected:
 
 private:
