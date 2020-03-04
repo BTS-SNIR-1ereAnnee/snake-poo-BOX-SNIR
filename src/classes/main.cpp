@@ -5,7 +5,7 @@
 #include <iostream>
 #include "Point.h"
 #include "Board.h"
-
+#include <ncurses.h>
 
 using namespace std;
 
@@ -21,6 +21,7 @@ int main()
     p.drawPoint();
     Point p2(10,5);
     p2.drawPoint();
+    
     //cout << "press any key to quit" << endl;
     getchar();
     fenetre->kill();

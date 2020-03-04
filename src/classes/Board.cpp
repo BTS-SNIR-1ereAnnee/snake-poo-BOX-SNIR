@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <iostream>
 using namespace std;
+#include <ncurses.h>
 
 
 // Initialisation du singleton à NULL
