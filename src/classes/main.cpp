@@ -29,6 +29,10 @@ int main()
     p.setX(5);
     cout << "La valeur est de: " << p.getX();
     
+    cout << "La valeur est de: " << p.getY();
+    p.setY(8);
+    cout << "La valeur est de: " << p.getY();
+    
     p.drawPoint();
 //    p.moveLeft();
 //    p.drawPoint();
