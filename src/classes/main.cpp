@@ -19,19 +19,20 @@ int main()
 
     Point p(10,1);
     p.drawPoint();
-//    Point p2(10,9);
-//    p2.drawPoint();
+    Point p2(10,9);
+    p2.drawPoint();
     p.moveUp();
     p.drawPoint();
-//    p.moveDown();
-//    p.drawPoint();
-//    p.moveLeft();
-//    p.drawPoint();
-//    p.moveRight();
-//    p.drawPoint();
+    p.moveDown();
+    p.drawPoint();
+    p.moveLeft();
+    p.drawPoint();
+    p.moveRight();
+    p.drawPoint();
     
     p.erasePoint();
     
+    p.debug();
     
     //cout << "press any key to quit" << endl;
     getchar();
