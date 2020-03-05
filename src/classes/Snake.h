@@ -17,7 +17,7 @@ protected:
 
 private:
 
-       Point m_serpent[4];  //declaration de l'attribut
+       Point m_serpent[20];  //declaration de l'attribut
        int m_indexSerpent;  //declaration de l'attribut
      
 };
