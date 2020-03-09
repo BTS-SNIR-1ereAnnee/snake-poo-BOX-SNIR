@@ -23,7 +23,13 @@ void Snake::afficher()  //implemantation de la methode
          }
 }
 
-
+void Snake::moveDown()
+{
+     for(int i=0;i<20;i++)
+         {
+            m_serpent[i].moveDown();  //Affiche le tableau de points 
+         }
+}
 
 
 Snake::~Snake() //destructeur

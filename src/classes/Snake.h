@@ -7,20 +7,26 @@ public:
     
     Snake(); //Constructeur par defaut
     
-   
-    
     virtual ~Snake(); //destructeur par defaut          
+    
+    
+    
+    void setPoint(int x, int y);
     
     void ajouterPoint(Point p); //declaration de la methode
     
     void afficher();  //declaration de la methode
     
+    void moveDown();
+   
 protected:
 
 private:
 
        Point m_serpent[20];  //declaration de l'attribut
        int m_indexSerpent;  //declaration de l'attribut
+        
+       
      
 };
 

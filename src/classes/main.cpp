@@ -23,8 +23,12 @@ int main()
     //Point p2(10,5);
     //p2.drawPoint();
    
+ 
    Snake serpent; //Declaration variable serpent de type Snake
    serpent.afficher(); // Appelle la fonction pour afficher 
+   
+    serpent.moveDown();
+    serpent.afficher();
     
     
     
