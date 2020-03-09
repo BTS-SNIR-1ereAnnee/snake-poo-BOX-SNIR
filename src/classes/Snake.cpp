@@ -31,6 +31,14 @@ void Snake::moveDown()
          }
 }
 
+void Snake::moveRight()
+{
+    for(int i=0;i<20;i++)
+         {
+            m_serpent[i].moveRight();  //Affiche le tableau de points 
+         }
+}
+
 
 Snake::~Snake() //destructeur
 {

@@ -30,6 +30,10 @@ int main()
     serpent.moveDown();
     serpent.afficher();
     
+    serpent.moveRight();
+    serpent.afficher();
+    
+    
     
     
     //cout << "press any key to quit" << endl;

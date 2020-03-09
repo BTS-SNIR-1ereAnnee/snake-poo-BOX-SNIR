@@ -18,6 +18,7 @@ public:
     void afficher();  //declaration de la methode
     
     void moveDown();
+    void moveRight();
    
 protected:
 
