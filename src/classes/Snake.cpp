@@ -1,7 +1,7 @@
 #include "Point.h"
 #include "Snake.h"
 #include <iostream>
-
+#include <ncurses.h>
 using namespace std;
 
 Snake::Snake() //contructeur
@@ -17,10 +17,10 @@ void Snake::ajouterPoint(Point p) //implemantation de la methode
 
 void Snake::afficher()  //implemantation de la methode
 {
-//        for(int i=0;i<20;i++)
-//        {
-//           
-//        }
+        for(int i=0;i<20;i++)
+         {
+            m_serpent[i].drawPoint();  //Affiche le tableau de points 
+         }
 }
 
 

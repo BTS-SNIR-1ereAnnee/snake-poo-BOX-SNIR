@@ -7,6 +7,8 @@ public:
     
     Snake(); //Constructeur par defaut
     
+   
+    
     virtual ~Snake(); //destructeur par defaut          
     
     void ajouterPoint(Point p); //declaration de la methode
