@@ -12,6 +12,8 @@ Snake::Snake() //contructeur
 void Snake::ajouterPoint(Point p) //implemantation de la methode
 {
     this->m_serpent[m_indexSerpent] = p;
+    
+    m_indexSerpent ++;
 }
 
 
@@ -39,8 +41,23 @@ void Snake::moveRight()
          }
 }
 
+void Snake::moveUp()
+{
+   for(int i=0;i<20;i++)
+         {
+            m_serpent[i].moveUp();  //Affiche le tableau de points 
+         }
+}
+
+void Snake::moveLeft()
+{
+    for(int i=0;i<20;i++)
+         {
+            m_serpent[i].moveLeft();  //Affiche le tableau de points 
+         }
+}
 
 Snake::~Snake() //destructeur
-{
+{   
 
 }
