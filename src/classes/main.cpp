@@ -39,8 +39,7 @@ int main()
     serpent.moveUp();
     serpent.afficher();
     
-    serpent.moveLeft();
-    serpent.afficher();
+   
     
     
     
