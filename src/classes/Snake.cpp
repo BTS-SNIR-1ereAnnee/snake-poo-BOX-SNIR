@@ -9,7 +9,7 @@ Snake::Snake() //contructeur
     
 }
 
-void Snake::ajouterPoint(Point p) //implemantation de la methode
+void Snake::ajouterPoint(Point p) //implemantation de la methode pour ajouter point
 {
     this->m_serpent[m_indexSerpent] = p;
     
@@ -17,22 +17,22 @@ void Snake::ajouterPoint(Point p) //implemantation de la methode
 }
 
 
-void Snake::afficher()  //implemantation de la methode
+void Snake::afficher()  //implemantation de la methode pour afficher 
 {
         for(int i=0;i<20;i++)
          {
             m_serpent[i].drawPoint();  //Affiche le tableau de points 
          }
 }
-
-void Snake::moveDown()
+// Deplace le serpent vers le bas
+void Snake::moveDown() 
 {
      for(int i=0;i<20;i++)
          {
             m_serpent[i].moveDown();  //Affiche le tableau de points 
          }
 }
-
+// Deplace le serpent vers la droite
 void Snake::moveRight()
 {
     for(int i=0;i<20;i++)
@@ -40,7 +40,7 @@ void Snake::moveRight()
             m_serpent[i].moveRight();  //Affiche le tableau de points 
          }
 }
-
+// Deplace le serpent vers le haut
 void Snake::moveUp()
 {
    for(int i=0;i<20;i++)
@@ -48,7 +48,7 @@ void Snake::moveUp()
             m_serpent[i].moveUp();  //Affiche le tableau de points 
          }
 }
-
+// Deplace le serpent vers la gauche
 void Snake::moveLeft()
 {
     for(int i=0;i<20;i++)

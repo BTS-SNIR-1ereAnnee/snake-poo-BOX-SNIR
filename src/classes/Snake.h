@@ -11,16 +11,16 @@ public:
     
     
     
-    void setPoint(int x, int y);
+    void setPoint(int x, int y); //Definition des coordonnées du Snake
     
     void ajouterPoint(Point p); //declaration de la methode
     
     void afficher();  //declaration de la methode
     
-    void moveDown();
-    void moveRight();
-    void moveUp();
-    void moveLeft();
+    void moveDown();     //declaration de la methode pour aller vers le bas     
+    void moveRight();     //declaration de la methode pour aller vers la droite 
+    void moveUp();         //declaration de la methode pour aller vers le haut
+    void moveLeft();      //declaration de la methode pour aller vers la gauche
    
 protected:
 
