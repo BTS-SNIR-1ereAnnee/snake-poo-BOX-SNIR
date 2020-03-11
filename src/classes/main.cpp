@@ -35,7 +35,7 @@ char c = 0;
     while(c != 27)
     {   
         c = getch();  
-              
+              serpent.efface();
         if(c == 'z')
         {
             serpent.moveUp();   //Deplace le snake en haut
@@ -55,6 +55,7 @@ char c = 0;
            }
              
              serpent.afficher();  //affiche le serpent 
+             
     }
     
     //cout << "press any key to quit" << endl;

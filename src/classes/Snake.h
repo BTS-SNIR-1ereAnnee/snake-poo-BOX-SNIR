@@ -16,6 +16,7 @@ public:
     void ajouterPoint(Point p); //declaration de la methode
     
     void afficher();  //declaration de la methode
+    void efface();
     
     void moveDown();     //declaration de la methode pour aller vers le bas     
     void moveRight();     //declaration de la methode pour aller vers la droite 

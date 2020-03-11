@@ -24,6 +24,14 @@ void Snake::afficher()  //implemantation de la methode pour afficher
             m_serpent[i].drawPoint();  //Affiche le tableau de points 
          }
 }
+
+void Snake::efface()  //implemantation de la methode pour afficher 
+{
+        for(int i=0;i<20;i++)
+         {
+            m_serpent[i-1].erasePoint();  //Affiche le tableau de points 
+         }
+}
 // Deplace le serpent vers le bas
 void Snake::moveDown() 
 {
