@@ -25,11 +25,11 @@ void Snake::afficher()  //implemantation de la methode pour afficher
          }
 }
 
-void Snake::efface()  //implemantation de la methode pour afficher 
+void Snake::efface()  //implemantation de la methode pour efface un Point p du tableau 
 {
         for(int i=0;i<20;i++)
          {
-            m_serpent[i-1].erasePoint();  //Affiche le tableau de points 
+            m_serpent[i-1].erasePoint();  //Efface Point p du tableau serpent   
          }
 }
 // Deplace le serpent vers le bas

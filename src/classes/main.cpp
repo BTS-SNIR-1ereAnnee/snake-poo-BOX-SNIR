@@ -34,8 +34,10 @@ char c = 0;
     
     while(c != 27)
     {   
-        c = getch();  
-              serpent.efface();
+        c = getch();        //stockage d'une fonction dans une variable 
+        serpent.efface();  //Efface un Point du serpent 
+        
+        
         if(c == 'z')
         {
             serpent.moveUp();   //Deplace le snake en haut

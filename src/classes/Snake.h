@@ -13,10 +13,10 @@ public:
     
     void setPoint(int x, int y); //Definition des coordonnées du Snake
     
-    void ajouterPoint(Point p); //declaration de la methode
+    void ajouterPoint(Point p); //Ajoute un Point p au tableau snake
     
-    void afficher();  //declaration de la methode
-    void efface();
+    void afficher();  //Affiche le tableau serpent      
+    void efface();    //efface un Point p dans le tableau serpent
     
     void moveDown();     //declaration de la methode pour aller vers le bas     
     void moveRight();     //declaration de la methode pour aller vers la droite 
